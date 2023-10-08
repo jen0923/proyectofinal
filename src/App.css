@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.titulo{
+  margin-left: 10%;
+  color: rgba(2, 50, 90, 0.349);
+  font-family: 'Comfortaa', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-image: -moz-radial-gradient(green, white);
+  
+    
+    
   }
-}
+.Chiara{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 3%;
+  padding: 5%;
+  border-radius: 8px;
+  border-color: azure;
+  background-color: rgba(247, 248, 249, 0.911);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: justify;text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
+  background-color: rgba(173, 216, 230, 0.546);
+
+
+}
+.Maureen{
+  margin: 3%;
+  padding: 5%;
+  border-radius: 8px;
+  border-color: rgba(112, 203, 203, 0.79);
+  background-color: rgba(173, 216, 230, 0.546);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
+
+  
+}
+.Monica{
+  margin: 3%;
+  padding: 5%;;
+  border-radius: 8px;
+  border-color: rgba(112, 203, 203, 0.79);
+  background-color: rgba(173, 216, 230, 0.546);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
 }
 
-.App-link {
-  color: #61dafb;
+.Marie{
+  margin: 3%;
+  padding: 5%;
+  border-radius: 8px;
+  border-color: rgba(112, 203, 203, 0.79);
+  background-color: rgba(173, 216, 230, 0.546);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cristhel{
+  margin: 3%;
+  padding: 5%;
+  border-radius: 8px;
+  border-color: rgba(112, 203, 203, 0.79);
+  background-color: rgba(173, 216, 230, 0.546);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
+
+}
+.Jenny{
+  margin: 3%;
+  padding: 5%;
+  border-radius: 8px;
+  border-color: rgba(112, 203, 203, 0.79);
+  background-color: rgba(173, 216, 230, 0.546);
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  color:black;
+  box-shadow: 5px 5px 10px #121111; 
+}
+.contenido{
+  background-color: rgba(173, 216, 230, 0.621);
+  border-radius: 8px;
+  margin: 1%;
+  padding: 1%;
+  color: black;
+  text-align: center;
+  box-shadow: 5px 5px 10px #121111; 
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+ 
+}
+
+.app{
+  background-image: url(https://i.etsystatic.com/21960027/r/il/2533b7/2601652113/il_1588xN.2601652113_25cv.jpg)
 }
